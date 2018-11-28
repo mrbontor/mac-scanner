@@ -9,7 +9,8 @@
 
 ## What does it require?
 
-- will not work on windows (tested on ubuntu only, but mac should work as well)
+- //will not work on windows (tested on ubuntu only, but mac should work as well)
+- work on windows
 - requires `arp`
 - requires access to `raw sockets`, there is a good chance that you need to start the app with elevated rights
 - starting with elevated rights can work like this `sudo $(which node) index.js`
